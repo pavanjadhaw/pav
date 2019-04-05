@@ -44,11 +44,12 @@ const githubing = `${data.labelGitHub}  ${data.github}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
-// Put all our output together into a single variable so we can use boxen effectively
+// put all our output together into a single variable so we can use boxen effectively
+/* eslint capitalized-comments: ["error", "never"] */
 const output =
   heading + // data.name + data.handle
   newline +
-  newline + // Add one whole blank line
+  newline + // add one whole blank line
   working +
   newline + // data.labelWork + data.work
   opensourcing +
