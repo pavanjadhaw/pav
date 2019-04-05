@@ -18,7 +18,7 @@ const data = {
   handle: chalk.white('@' + handle),
   work: chalk.white('CS Undergrad'),
   opensource: chalk.bold.white(
-    'Trying my best to give back to awesome community'
+    'Trying my best to become better software engineer'
   ),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan(handle),
   npm: chalk.gray('https://npmjs.com/') + chalk.red(handle),
@@ -26,7 +26,7 @@ const data = {
   web: chalk.cyan('https://pavanjadhaw.me'),
   npx: chalk.red('npx') + ' ' + chalk.white('pav'),
   labelWork: chalk.white.bold('    Current:'),
-  labelOpenSource: chalk.white.bold('Open Source:'),
+  labelOpenSource: chalk.white.bold(''),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
