@@ -21,7 +21,7 @@ const data = {
     'Trying my best to become better software engineer'
   ),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan(handle),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red(handle),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~' + handle),
   github: chalk.gray('https://github.com/') + chalk.green(handle),
   web: chalk.cyan('https://pavanjadhaw.me'),
   npx: chalk.red('npx') + ' ' + chalk.white('pav'),
